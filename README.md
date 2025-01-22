@@ -1,4 +1,7 @@
 # TeslaBLE - A C++ library for communicating with Tesla vehicles over BLE
+
+Forked from [yoziru/tesla-ble](https://github.com/yoziru/tesla-ble) 
+
 This library is designed to communicate with Tesla vehicles locally via the BLE API. It follows the same principles as the official Tesla [vehicle-command](https://github.com/teslamotors/vehicle-command) library (Golang), and is intended for use in embedded systems.
 
 It exists to:
@@ -10,7 +13,7 @@ The main purpose of this library is to locally manage charging of the vehicle to
 ## Usage
 This project is intended to be used as a library in your own project. It is not a standalone application. 
 
-[yoziru/esphome-tesla-ble](https://github.com/yoziru/esphome-tesla-ble) is an ESPHome project that uses this library to control your Tesla vehicle charging.
+[Snuffy2/esphome-tesla-ble](https://github.com/Snuffy2/esphome-tesla-ble) is an ESPHome project that uses this library to control your Tesla vehicle charging.
 
 Several examples are included for your convenience.
 ```sh
